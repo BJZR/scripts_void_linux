@@ -8,7 +8,7 @@ RESET='\033[0m'
 
 echo -e "${AZUL}"
 echo "╔════════════════════════════════════════════════════╗"
-echo "║         🎧 Instalador PipeWire para Void                                       ║"
+echo "║         🎧 Instalador PipeWire para Void           ║"
 echo "╚════════════════════════════════════════════════════╝"
 echo -e "${RESET}"
 
