@@ -17,7 +17,7 @@ echo -e "📦 ${AZUL}Instalando paquetes necesarios...${RESET}"
 sudo xbps-install -y pipewire wireplumber blueman libspa-bluetooth pavucontrol
 
 # Paso 2: Agregar usuario al grupo bluetooth
-echo -e "👤 ${AZUL}Agregando el usuario '$USUARIO' al grupo bluetooth...${RESET}"
+echo -e "👤 ${AZUL}Agregando el usuario '$USER' al grupo bluetooth...${RESET}"
 sudo usermod -aG bluetooth "$USER"
 
 # Mensaje final
