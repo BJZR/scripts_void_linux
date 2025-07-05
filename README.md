@@ -1,5 +1,5 @@
 # Void-scripts
-scripts de instalacions configuracion etc, para void..
+scripts de instalaciones configuraciones etc, para void..
 
 ## descargar 
 ~~~
