@@ -1,2 +1,20 @@
-# Void-pipewire
-este es un script de instalacion completa de pipewire (servidor de audio)..
+# Void-scripts
+scripts de instalacions configuracion etc, para void..
+
+## descargar 
+'''
+git clone https://github.com/BJZR/Void-scipts.git
+'''
+
+## carpeta
+'''
+cd Void-scripts
+'''
+## permisos
+'''
+chmod +x <archivo.sh>
+'''
+## ejecutar
+'''
+./<archvio.sh>
+'''
