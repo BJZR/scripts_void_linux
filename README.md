@@ -2,9 +2,9 @@
 scripts de instalacions configuracion etc, para void..
 
 ## descargar 
-'''
+~~~
 git clone https://github.com/BJZR/Void-scipts.git
-'''
+~~~
 
 ## carpeta
 '''
