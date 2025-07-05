@@ -20,6 +20,10 @@ sudo xbps-install -y pipewire wireplumber blueman libspa-bluetooth pavucontrol
 echo -e "👤 ${AZUL}Agregando el usuario '$USER' al grupo bluetooth...${RESET}"
 sudo usermod -aG bluetooth "$USER"
 
+# Paso 3: Activar el servicio bluetooth
+echo -e "👤 ${AZUL}Agregando el servicio bluetooth...${RESET}"
+sudo ln -s /etc/sv/bluetoothd /var/service
+
 # Mensaje final
 echo -e "\n${VERDE}✅ Instalación y configuración completada.${RESET}"
 echo -e "${AZUL}🔁 Reinicia tu sesión o el sistema para aplicar los cambios.${RESET}\n"
